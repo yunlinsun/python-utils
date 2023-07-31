@@ -96,7 +96,6 @@ for file in test_files:
     # print(response.text)
     
     # Get the issue link
-    response = requests.post(url, headers=headers, auth=auth, json=data)
     response_json = response.json()  
     print(response.text, "Ticket link:", base_url + response_json["key"])
     
