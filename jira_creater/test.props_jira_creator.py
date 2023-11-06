@@ -16,7 +16,7 @@ headers = {
 }
 
 # Git Setting
-repo = git.Repo('/home/steven/project/liferay-portal')
+repo = git.Repo('/home/me/dev/projects/liferay-portal')
 cutoff_date = datetime(2023, 7, 31).replace(tzinfo=timezone.utc)
 
 # Traverse all modifiled files
